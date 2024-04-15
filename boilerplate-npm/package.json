@@ -1,13 +1,15 @@
 {
-  "name": "codecamp",
-  "version": "1.0.0",
-  "description": "This is the boilerplate code for the Managing Packages With npm Challenges. Instructions for working on these challenges start at https://www.freecodecamp.org/learn/back-end-development-and-apis/managing-packages-with-npm/",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "Tim",
-  "license": "ISC"
+	"name": "fcc-learn-npm-package-json",
+    "author": "Tim",
+	"dependencies": {
+		"express": "^4.14.0"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GutsyMean/CodeCamp.git"
+	}
 }
