@@ -1,15 +1,19 @@
 {
-	"name": "fcc-learn-npm-package-json",
-    "author": "Tim",
-	"dependencies": {
-		"express": "^4.14.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/GutsyMean/CodeCamp.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "author": "Tim",
+  "description": "This project will teach me how to handle npm",
+  "keywords": ["freecodecamp", "codingproject"],
+  "license": "ExampleLicense",
+  "version": "1.0",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GutsyMean/CodeCamp.git"
+  }
 }
